@@ -8,7 +8,6 @@ git config --global user.name "Your Name"
 git add .
 git commit -m "compiled assest"
 
-
 git-ftp push \
   --auto-init \
   --all \
