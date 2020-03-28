@@ -1,5 +1,9 @@
 #!/bin/sh -l
 
+npm install
+
+npm run build:prod
+
 git-ftp push \
   --auto-init \
   --all \

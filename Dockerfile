@@ -1,4 +1,4 @@
-FROM alpine:3.11
+FROM node:13-alpine3.11
 
 COPY LICENSE README.md /
 
